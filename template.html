@@ -36,14 +36,17 @@
                 <h1 id="todo-str">TO-DO</h1> 
                 <div id="social-icon"> 
                     <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://wa.me/+918425998839"><i class="fa-brands fa-whatsapp"></i></a>
                     <a href=""><i class="fa-brands fa-twitter"></i></a> 
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/coding_altu/"><i class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
             <!-- menu-bar or nav-bar-->
             <nav id="menu-bar" class="uni-padding">
                 <ul>
+                    <!-- mobile btn  -->
+                    <li id="mobile-cross"><a href="javascript:void(0)" onclick="closeMenu()"><i class="fa-solid fa-circle-xmark"></i></a></li>
+                    <!-- mobile-btn upar -->
                     <li><a href="index.html">Home</a></li>
                     <li><a href="sign_in.html">Sign-in</a></li>
                     <li><a href="sign_up.html">Sign-up</a></li>
@@ -51,12 +54,16 @@
                     <li><a href="contact_us.html">Contact</a></li>
                 </ul>
             </nav>
+            <!-- mobile menu btn -->
+            <div id="mobile-bar" onclick="openMenu()">
+                <i class="fa-solid fa-bars"></i> Menu
+            </div>
         </header>
 
         <!-- footer  -->
         <footer >
             <div id="contact" class="uni-padding">
-                <p id="contact-us">Contact Us Here <br> for more information mail Us <a href="mailto:someone@example.com"> Here  </a>  <br> Toll free : 12345-06789</p>
+                <p id="contact-us">Contact Us Here <br> for more information mail Us <a href="mailto:shaikhaltamash_ce_2020@ltce.in"> Here  </a>  <br> Toll free : 12345-06789</p>
                 <a href="contact_us.html" id="contact-btn">Contact Us</a>
             </div>
             <div id="copyright" class="uni-padding">
@@ -64,7 +71,7 @@
             </div>
         </footer>
 
-
     </div>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
